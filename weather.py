@@ -36,7 +36,7 @@ def main() -> None:
 def read_args() -> Dict[str, str]:
     """Reads arguments from command line."""
     if len(sys.argv) != LENGTH_OF_ARGS:
-        print("Usage: python -m projects.pj01.weather [FILE] [COLUMN] [OPERATION]")
+        print("Usage: python -m weather-data.weather [FILE] [COLUMN] [OPERATION]")
         exit()
     return {
         "file": sys.argv[1],
